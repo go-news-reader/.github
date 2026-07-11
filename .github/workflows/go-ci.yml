@@ -1,0 +1,26 @@
+name: go-ci
+
+on:
+  workflow_call:
+    inputs:
+      go-version:
+        type: string
+        default: "1.26.4"
+
+permissions:
+  contents: read
+
+jobs:
+  ci:
+    name: lint + build + test
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ inputs.go-version }}
+          check-latest: true
+          cache: true
+      - run: go vet ./...
+      - run: go build ./...
+      - run: go test -race -cover ./...
