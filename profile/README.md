@@ -2,7 +2,13 @@
 
 <h1 align="center">go-news-reader</h1>
 <p align="center">Pure-Go multi-source news & social aggregator — one unified feed.</p>
-<p align="center">[![docs](https://img.shields.io/badge/docs-mkdocs--material-0A6E96?style=flat-square&logo=materialformkdocs&logoColor=white)](https://go-news-reader.github.io/docs/) ![packages](https://img.shields.io/badge/packages-1-0079A8?style=flat-square) ![Go](https://img.shields.io/badge/Go-1.26.4-00ADD8?style=flat-square&logo=go&logoColor=white) ![CGO](https://img.shields.io/badge/CGO-0-22CCE2?style=flat-square) ![license](https://img.shields.io/badge/license-BSD--3--Clause-0A6E96?style=flat-square)</p>
+<p align="center">
+  <a href="https://go-news-reader.github.io/docs/"><img src="https://img.shields.io/badge/docs-mkdocs--material-0A6E96?style=flat-square&logo=materialformkdocs&logoColor=white" alt="docs"></a>
+  <img src="https://img.shields.io/badge/packages-1-0079A8?style=flat-square" alt="packages">
+  <img src="https://img.shields.io/badge/Go-1.26.4-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go">
+  <img src="https://img.shields.io/badge/CGO-0-22CCE2?style=flat-square" alt="CGO">
+  <img src="https://img.shields.io/badge/license-BSD--3--Clause-0A6E96?style=flat-square" alt="license">
+</p>
 
 ---
 
